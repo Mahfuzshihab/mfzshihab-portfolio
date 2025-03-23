@@ -5,18 +5,197 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shihab Portfolio</title>
     <link rel="stylesheet" href="/style.css" />
+    <script
+      src="https://kit.fontawesome.com/139908e28d.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <header>
+    <header class="header secondry-bg">
       <nav>
-        <h3>Mah<span>f</span>uz</h3>
+        <h3 class="nav-title">Mah<span class="text-primary">f</span>uz</h3>
         <ul>
-          <li><a href="">About</a></li>
-          <li><a href="">Projects</a></li>
-          <li><a href="">Skills</a></li>
+          <li><a class="dark-2" href="#about">About</a></li>
+          <li><a class="dark-2" href="#projects">Projects</a></li>
+          <li><a class="dark-2" href="#skills">Skills</a></li>
+          <li><a class="dark-2" href="">Gallery</a></li>
           <li>
-            <a href=""><button>Hire Me</button></a>
+            <a href=""><button class="btn-primary">Hire Me</button></a>
           </li>
         </ul>
       </nav>
-      
+
+      <div class="banner">
+        <div class="banner-content">
+          <h3 class="banner-greetings dark-2">Hi, I am</h3>
+          <h1 class="banner-title">Mahfuz Shihab</h1>
+          <p class="banner-discription">
+            I can provide top-notch technology-included websites, Lorem ipsum dolor
+            sit amet consectetur, adipisicing elit.
+          </p>
+        </div>
+      </div>
+
+      <div class="btn-head">
+        <button class="btn-primary">
+          <i class="fa-solid fa-file-arrow-down"></i> Download CV
+        </button>
+        <button class="btn-primary">
+          <i class="fa-solid fa-address-book"></i> Contact
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section id="about">
+        <h3 class="section-title">About Me</h3>
+        <p class="section-description">
+          I'm a designer & developer Lorem, ipsum dolor sit amet consectetur
+          adipisicing elit. Reprehenderit tempora ipsa, illum odio totam alias
+          ea eaque aliquid tempore quasi necessitatibus sit aliquam ipsum ut
+          nostrum veniam labore officiis debitis!.
+        </p>
+        <div class="about-items">
+          <div class="about-item">
+            <p class="item-title">Email:</p>
+            <p class="item-discription">example@mail.com</p>
+          </div>
+
+          <div class="about-item">
+            <p class="item-title">From:</p>
+            <p class="item-discription">Helsinki, Finland</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="sumprojects" id="projects">
+        <h3 class="section-title text-center">A Glimpse of My Projects</h3>
+
+        <div class="project-container">
+          <div class="project-column">
+            <h3 class="project-title">Pancake 1</h3>
+            <div class="project">
+              <div class="project-description">
+                <p>
+                  Week 4 Pancake Project
+                  <img src="/assets/week1.png" alt="" />
+                </p>
+              </div>
+            </div>
+
+            <h3 class="project-title">Pancake 2</h3>
+            <div class="project">
+              <div class="project-description">
+                <p>
+                  Week 5 Pancake Project
+                  <img src="/assets/week2.png" alt="" />
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-column">
+            <h3 class="project-title">Pancake 3</h3>
+            <div class="project">
+              <div class="project-description">
+                <p>
+                  Week 7 Pancake Project 3
+                  <img src="/assets/week2.png" alt="" />
+                </p>
+              </div>
+            </div>
+
+            <h3 class="project-title">Little Zoo</h3>
+            <div class="project">
+              <div class="project-description">
+                <p>
+                  Week 6 Little Zoo project
+                  <img src="/assets/littlezoo.png" alt="" />
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center project-download-cv">
+          <button class="btn-primary">
+            <i class="fa-solid fa-address-book"></i> Download CV
+          </button>
+        </div>
+      </section>
+
+      <section class="skill" id="skills">
+        <h3 class="section-title">Skills</h3>
+        <p class="section-description">
+          I have more than 1 year of experience, find out more about my experience and
+          check out my skills.
+        </p>
+        <div class="skill-container">
+          <div class="skill">
+            <img src="/assets/js.png" alt="" />
+            <h4 class="skill-title" id="js">JavaScript</h4>
+            <p class="skill-description">
+              Js dolor sit amet consectetur adipisicing elit. Tempora soluta
+              debitis fugit aliquid ex animi repudiandae.
+            </p>
+          </div>
+          <div class="skill">
+            <img src="/assets/react.png" alt="" />
+            <h4 class="skill-title" id="rc">React</h4>
+            <p class="skill-description">
+              React ipsum dolor sit amet consectetur adipisicing elit. Tempora
+              soluta debitis fugit aliquid ex animi repudiandae.
+            </p>
+          </div>
+          <div class="skill">
+            <img src="/assets/php.png" alt="" />
+            <h4 class="skill-title" id="ph">Php</h4>
+            <p class="skill-description">
+              Php ipsum dolor sit amet consectetur adipisicing elit. Tempora
+              soluta debitis fugit aliquid ex animi repudiandae.
+            </p>
+          </div>
+          <div class="skill">
+            <img src="/assets/lara.png" alt="" />
+            <h4 class="skill-title" id="lv">Laravel</h4>
+            <p class="skill-description">
+              Laravel ipsum dolor sit amet consectetur adipisicing elit. Tempora
+              soluta debitis fugit aliquid ex animi repudiandae.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="secondry-bg">
+      <div class="footer-column">
+        <h3 class="section-title">Let's Connect</h3>
+        <p class="section-description">
+          Please contact me or call
+          between 9:00 / 15:00 EET<br>Monday - Friday
+        </p>
+        <div class="icon">
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-youtube"></i></a>
+          <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      <div class="footer-column">
+        <h3 class="section-title">Message me here</h3>
+        <form action="">
+          <label for="name">
+            <input type="text" name="name" id="name" placeholder="Your Name" />
+          </label>
+          <label for="email">
+            <input type="email" name="email" id="email" placeholder="Your Email" />
+          </label>
+          <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+        </form>
+        <label for="submit">
+          <input class="btn-primary" type="submit" name="submit" id="submit" />
+        </label>
+      </div>
+    </footer>
+  </body>
+</html>
