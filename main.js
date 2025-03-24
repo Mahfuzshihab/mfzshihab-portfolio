@@ -1,10 +1,9 @@
-// Select Elements
 const backToTopBtn = document.querySelector("#backToTopBtn");
 const overlay = document.querySelector("#overlay");
 const closeBtn = document.getElementById('closeBtn');
 
 
-// Automatically Show Modal on Page Load
+// Show Modal on Page Load
 window.addEventListener("load", () => {
   overlay.style.display = "flex";
   overlay.style.opacity = "0";
@@ -13,7 +12,7 @@ window.addEventListener("load", () => {
   }, 10);
 });
 
-// Close Modal by Clicking Outside of Modal Content
+
 overlay.addEventListener("click", (event) => {
   if (event.target === overlay) {
     overlay.style.opacity = "0";
