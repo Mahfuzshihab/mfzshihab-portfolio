@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shihab Portfolio</title>
+    <link rel="stylesheet" href="/style.css" />
+    <script
+      src="https://kit.fontawesome.com/139908e28d.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <style>
+      .gridimg {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        gap: 5px;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+      }
+      .gridimg .galimg1 {
+        grid-column: span 2;
+      }
+
+      .galimg3 {
+        grid-row: span 2;
+      }
+      .galimg4 {
+        grid-column: span 2;
+      }
+
+      .galimg9 {
+        grid-column: span 2;
+      }
+
+      .galimg5 {
+        grid-row: ;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header secondry-bg">
+      <nav>
+        <h3 class="nav-title">Mah<span class="text-primary">f</span>uz</h3>
+        <ul>
+          <li><a class="dark-2" href="#about">About</a></li>
+          <li><a class="dark-2" href="#projects">Projects</a></li>
+          <li><a class="dark-2" href="#skills">Skills</a></li>
+          <li><a class="dark-2" href="/gallery.html">Gallery</a></li>
+          <li>
+            <a href=""><button class="btn-primary">Hire Me</button></a>
+          </li>
+          <li>
+            <button id="darkModeBtn">
+              <i class="fa-solid fa-circle-half-stroke"></i>
+            </button>
+          </li>
+        </ul>
+        <button class="menu"><i class="fa-solid fa-bars"></i></button>
+      </nav>
+
+      <div class="banner">
+        <div class="banner-content">
+          <h3 class="banner-greetings dark-2">Gallery <br />of</h3>
+          <h1 class="banner-title">Mahfuz Shihab</h1>
+          <p class="banner-discription">
+            Here is gallery sections, you will find images that are used css
+            grid
+          </p>
+        </div>
+      </div>
+
+      <div class="btn-head">
+        <button class="btn-primary">
+          <i class="fa-solid fa-down-long"></i> Go Down
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <div class="grid">
+        <figure class="galimg1">
+          <img src="/assets/coffeL1.webp" class="gridimg" alt="" />
+        </figure>
+        <figure class="galimg2">
+          <img src="/assets/coffeP1.jpg" class="gridimg" alt="" />
+        </figure>
+        <figure class="galimg3">
+          <img src="/assets/coffeL2.jpeg" class="gridimg" alt="" />
+        </figure>
+        <figure class="galimg4">
+          <img src="/assets/coffeP2.jpg" class="gridimg" alt="" />
+        </figure>
+        <figure class="galimg5">
+          <img src="/assets/coffeL3.jpeg" class="gridimg" alt="" />
+        </figure>
+        <figure class="galimg6">
+          <img src="/assets/coffeP3.jpg" class="gridimg" alt="" />
+        </figure>
+        <figure class="galimg7">
+          <img src="/assets/coffeL4.webp" class="gridimg" alt="" />
+        </figure>
+        <figure class="galimg8">
+          <img src="/assets/coffeP4.jpg" class="gridimg" alt="" />
+        </figure>
+        <figure class="galimg9">
+          <img src="/assets/coffeP5.jpg" class="gridimg" alt="" />
+        </figure>
+      </div>
+    </main>
+
+    <footer class="secondry-bg">
+      <div class="footer-column">
+        <h3 class="section-title">Let's Connect</h3>
+        <p class="section-description">
+          Please contact me or call between 9:00 / 15:00 EET<br />Monday -
+          Friday
+        </p>
+        <div class="icon">
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-youtube"></i></a>
+          <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      <div class="footer-column">
+        <h3 class="section-title">Message me here</h3>
+        <form action="">
+          <label for="name">
+            <input type="text" name="name" id="name" placeholder="Your Name" />
+          </label>
+          <label for="email">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Your Email"
+            />
+          </label>
+          <textarea
+            name="message"
+            id="message"
+            cols="30"
+            rows="10"
+            placeholder="Message"
+          ></textarea>
+        </form>
+        <label for="submit">
+          <input class="btn-primary" type="submit" name="submit" id="submit" />
+        </label>
+      </div>
+    </footer>
+
+    <button id="backToTopBtn" style="display: none">Back to Top</button>
+
+    <script src="/main.js"></script>
+  </body>
+</html>

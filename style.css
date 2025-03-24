@@ -363,6 +363,17 @@ body.dark-mode .text-primary {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 576px) {
     .skill-container, .project-container, footer, .banner {
         flex-direction: column;
